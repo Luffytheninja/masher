@@ -641,10 +641,11 @@
   }
 
   .hero-headline {
-    font-size: 15vw !important;
+    font-size: clamp(3rem, 12.5vw, 6rem) !important;
     line-height: 1;
     text-shadow: none;
     color: var(--text-color);
+    letter-spacing: -0.04em;
   }
 
   .hero-headline-sub {
